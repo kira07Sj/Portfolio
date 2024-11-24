@@ -3,6 +3,7 @@
 @tailwind utilities;
 *{
   transition: 0.5s;
+  scroll-behavior: smooth;
 }
 
 .primary_bg {
@@ -16,7 +17,19 @@
   color: #3f007a;
 }
 .a:hover{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.886);
   color: #2f0259;
 }
-
+.i{
+  font-size: 2rem;
+  padding: 5px;
+  color: #ffffff;
+  border: 1px solid white;
+  
+  transform: perspective(3px);
+}
+.i:hover{
+  
+  box-shadow: 0 0  .3rem white;
+  transform:rotateZ(25deg)
+}
