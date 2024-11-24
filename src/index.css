@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  transition: 0.5s;
+}
+
+.primary_bg {
+ background-color: #28004d;
+
+}
+.second_bg{
+  background: linear-gradient(to right, #3f007a,#2f0259);
+}
+.text_primary{
+  color: #3f007a;
+}
+.a:hover{
+  background-color: white;
+  color: #2f0259;
+}
+
