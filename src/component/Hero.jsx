@@ -31,17 +31,17 @@ const Hero = () => {
               </p>
 
               <div className='flex justify-center items-center ml-[5rem] my-[1rem] gap-x-3'>
-                  <a href="https://github.com/kira07Sj" className='flex items-center
+                  <a href="https://github.com/kira07Sj" target='blank' className='flex items-center
                    justify-center'>
                     <i class='bx bxl-github i rounded-full '></i>
                   </a>
 
-                  <a href="http://www.linkedin.com/in/kirubel-dagne07" className='flex items-center
+                  <a href="http://www.linkedin.com/in/kirubel-dagne07" target='blank' className='flex items-center
                    justify-center'>
                     <i class='bx bxl-linkedin i rounded-full '></i>
                   </a>
 
-                  <a href="https://github.com/kira07Sj" className='flex items-center
+                  <a href="https://t.me/Kira07sj" target='blank' className='flex items-center
                    justify-center'>
                     <i class='bx bxl-telegram i rounded-full '></i>
                   </a>
