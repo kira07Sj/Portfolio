@@ -33,3 +33,15 @@
   box-shadow: 0 0  .3rem white;
   transform:rotateZ(25deg)
 }
+.third_bg{
+  background: linear-gradient(to bottom left, #2c0154 ,#5300a0 ,#28004d);
+}
+.pulseAnimation{
+  box-shadow: 0 0 1.5rem #8c00ff;
+  animation: anime 2s linear ease-in-out;
+}
+@keyframes anime{
+  50%{
+    box-shadow: none;
+  }
+}

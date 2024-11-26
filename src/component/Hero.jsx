@@ -2,21 +2,23 @@ import React from 'react'
 import bg1 from '../assets/bg1.png'
 import ReactTypingEffect from 'react-typing-effect';
 import FileUrl from '../assets/Kirubel-Dagne-Resume.pdf'
-
+import kira_photo from '../assets/kira_photo.png'
 
 const Hero = () => {
   return (
-    <div id='Home' className='w-full h-[100dvh] primary_bg   flex  justify-center'>
+    <div id='Home' className='w-full  primary_bg   flex  justify-center'>
 
         <div className='w-[80%] md:h-[500px] flex flex-col justify-center
-        items-center z-10 mt-[10rem] md:flex-row'>
+        items-center z-10 mt-[10rem] md:flex-row mb-[12.5rem] max-md:mb-[5rem]'>
           <div className='w-full h-full flex flex-col items-start '>
               <h1 className='text-white font-semibold ml-[3rem] mt-[3rem]
-               text-[2rem]'>Hello, I'm</h1>
+               text-[2rem] max-md:text-[1.5rem]'>Hello, I'm</h1>
                <h1 className='text-white font-semibold
-                text-[4rem] ml-[3rem]'>Kirubel Dagne</h1>
+                text-[4rem] ml-[3rem] max-md:text-[2rem]'>Kirubel Dagne</h1>
 
-              <h1 className='text_primary bg-white p-[15px] font-bold text-[3rem] ml-[3rem] rounded'><ReactTypingEffect
+              <h1 className='text_primary bg-white p-[15px] font-bold text-[3rem] ml-[3rem] 
+              rounded max-md:text-[1.5rem]'>
+                <ReactTypingEffect
                     text={['Frontend Developer', 'Graphics Designer', 'UI/UX Designer']}
                     speed={100}
                     eraseSpeed={50}
@@ -48,11 +50,14 @@ const Hero = () => {
               <div className='second_bg ml-[5rem]'>
                   <a className=' p-[20px] px-[25px]  rounded-md
                   flex items-center justify-center shadow-2xl text-white text-[20px]
-                    font-bold  a ' href={FileUrl}>Download CV</a>
+                    font-bold  a ' href={FileUrl} target='__blank'>Download CV</a>
               </div>
           </div>
-          <div className='w-full h-full bg-slate-600'>
-
+          <div className='w-full h-full flex items-center justify-center'>
+          <div className='w-[300px] h-[300px] md:w-[450px] md:h-[450px] rounded-full bg-slate-600
+           flex items-center justify-center overflow-hidden  max-md:mt-5 pulseAnimation'>
+            <img src={kira_photo} alt="" />
+          </div>
           </div>
 
         </div>
