@@ -11,14 +11,15 @@ export const navLinks = [
     },
     {
         id: '3',
-        title:'Portfolio',
-        url: '#Portfolio'
-    },
-    {
-        id: '4',
         title:'Service',
         url: '#Service'
     },
+    {
+        id: '4',
+        title:'Portfolio',
+        url: '#Portfolio'
+    },
+    
 ]
 
 export const achievements = [
@@ -39,12 +40,8 @@ export const Skills = [
     {id:'6', src:'./src/assets/java.svg'},
     {id:'7', src:'./src/assets/typescript.svg'},
     {id:'8', src:'./src/assets/django.svg'},
-]
-
-export const Tools = [
-    {id:'1', src:'./src/assets/ps.svg'},
-    {id:'2', src:'./src/assets/AI.svg'},
-    {id:'3', src:'./src/assets/figma.svg'},
-    {id:'4', src:'./src/assets/unity.svg'},
-   
+    {id:'9', src:'./src/assets/ps.svg'},
+    {id:'10', src:'./src/assets/AI.svg'},
+    {id:'11', src:'./src/assets/figma.svg'},
+    {id:'12', src:'./src/assets/unity.svg'},
 ]
