@@ -6,10 +6,10 @@ import kira_photo from '../assets/kira_photo.png'
 
 const Hero = () => {
   return (
-    <div id='Home' className='w-full  primary_bg   flex  justify-center'>
+    <div id='Home' className='w-full h-full  primary_bg   flex  justify-center'>
 
         <div className='w-[80%] md:h-[500px] flex flex-col justify-center
-        items-center z-10 mt-[10rem] md:flex-row mb-[12.5rem] max-md:mb-[5rem]'>
+        items-center z-10 sm:mt-[10rem] mt-[4rem] lg:flex-row mb-[12.5rem] max-md:mb-[5rem]'>
           <div className='w-full h-full flex flex-col items-start '>
               <h1 className='text-white font-semibold ml-[3rem] mt-[3rem]
                text-[2rem] max-md:text-[1.5rem]'>Hello, I'm</h1>
@@ -30,7 +30,7 @@ const Hero = () => {
                   development and Graphics design.
               </p>
 
-              <div className='flex justify-center items-center ml-[5rem] my-[1rem] gap-x-3'>
+              <div className='flex justify-center items-center ml-[5rem] my-[2rem] gap-x-3'>
                   <a href="https://github.com/kira07Sj" target='blank' className='flex items-center
                    justify-center'>
                     <i class='bx bxl-github i rounded-full '></i>
@@ -62,7 +62,7 @@ const Hero = () => {
 
         </div>
         
-        <div className='h-[100%] w-[790px] flex absolute top-0 right-1 ' >
+        <div className='h-[110%] w-[690px] max-sm:w-[200px] flex absolute top-0 right-1 ' >
             <img src={bg1} alt="" className='object-cover'/>
         </div>
         

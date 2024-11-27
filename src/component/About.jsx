@@ -3,7 +3,7 @@ import { achievements, Skills, Tools} from '../constant'
 
 const About = () => {
   return (
-    <div id='About' className='w-full  third_bg   flex flex-col  items-center'> 
+    <div id='About' className='w-full  third_bg   flex flex-col  items-center z-20'> 
       <div className='w-full flex items-start'> 
         <h1 className='text-white text-[3rem] font-bold mt-[6rem] ml-[1rem]
          md:ml-[11rem] max-md:text-[2rem]'>About Me</h1>
@@ -15,25 +15,25 @@ const About = () => {
               <div className='w-full bg-purple-950/40 rounded-lg m-3  border flex
                flex-col items-start '>
 
-                <h1 className='text-white text-[1.9rem] font-bold ml-[2rem] mt-[2rem]'>Hi I'm Kirubel Dagne,</h1>
-                <p className='text-white/70 text-[1.2rem] mt-[1rem] ml-[2rem] w-[85%] text-justify mb-5'>a passionate developer with a love for building user-friendly applications and 
+                <h1 className='text-white text-[1.9rem] max-sm:text-[1.4rem] font-bold ml-[2rem] mt-[2rem]'>Hi I'm Kirubel Dagne,</h1>
+                <p className='text-white/70 text-[1.2rem] mt-[1rem] ml-[2rem] w-[85%] max-sm:w-[75%] text-justify mb-5'>a passionate developer with a love for building user-friendly applications and 
                   immersive games. My goal is to bridge the gap between creativity and technology. 
                   In my free time, I enjoy exploring new gaming trends and learning about UI/UX design.</p>
                 <a href="#" className='w-[120px] h-[50px] bg-white rounded-sm flex items-center justify-center
                  text_primary font-semibold ml-[2rem] mb-[3rem]'>Read more <i class='bx bx-link-external'></i></a>
               </div>
 
-              <div className='w-full h-[320px] bg-purple-950/40 rounded-lg m-5 border '>
-                  <h1 className='text-white text-[1.9rem] font-bold ml-[2rem] mt-[2rem]'>Achievements</h1>
+              <div className='w-full  bg-purple-950/40 rounded-lg m-5 border pb-[2rem]'>
+                  <h1 className='text-white text-[1.9rem] font-bold ml-[2rem] mt-[2rem] max-sm:text-[1.4rem]'>Achievements</h1>
                   {achievements.map((items)=>(
-                    <li className='text-white/70 ml-[2rem] text-[1.1rem] mt-5'
+                    <li className='text-white/70 ml-[2rem] text-[1.1rem] mt-5 max-sm:w-[85%]'
                     key={items.id}>{items.para}</li>
                   ))}
               </div>
           </div>
 
           <div className='w-[90%] h-[700px] mt-[4rem] rounded-md border bg-purple-950/40 flex flex-col'>
-              <h1 className='text-white text-[1.9rem] mb-3 font-bold ml-[2rem] mt-[2rem]'>Skills & Tools</h1>
+              <h1 className='text-white text-[1.9rem] max-sm:text-[1.4rem] mb-3 font-bold ml-[2rem] mt-[2rem]'>Skills & Tools</h1>
               <h1 className='p-[10px] bg-white text_primary md:text-[2rem] 
               text-[1.5rem]  w-[60%] rounded-sm font-bold mt-4'>
                  Programming Skills</h1>
