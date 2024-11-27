@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Hero from './component/Hero'
 import Navbar from './component/navbar'
 import About from './component/About'
+import Portfolio from './component/Portfolio'
+
 
 function App() {
 
@@ -10,6 +12,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <Portfolio/>
     </div>
   )
 }

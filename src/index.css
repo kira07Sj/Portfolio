@@ -36,6 +36,12 @@
 .third_bg{
   background: linear-gradient(to bottom left, #2c0154 ,#5300a0 ,#28004d);
 }
+.fourth_bg{
+  background-color: #5300a0b9;
+}
+.fiveth_bg{
+  background-color: #5300a0;
+}
 .pulseAnimation{
   box-shadow: 0 0 1.5rem #8c00ff;
   animation: anime 2s linear ease-in-out;

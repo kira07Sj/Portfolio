@@ -11,15 +11,14 @@ export const navLinks = [
     },
     {
         id: '3',
-        title:'Service',
-        url: '#Service'
-    },
-    {
-        id: '4',
         title:'Portfolio',
         url: '#Portfolio'
     },
-    
+    {
+        id: '4',
+        title:'Contact',
+        url: '#Contact'
+    },
 ]
 
 export const achievements = [
