@@ -52,15 +52,10 @@ export const Projects = [
 ]
 export const Graphics = [
     {id:'1',name:'Amibara Real Estate',src:'./src/assets/Cards/Amibara1.jpg'},
-    {id:'2',name:'Amibara Real Estate',src:'./src/assets/Cards/Amibara2.png'},
-    {id:'3',name:'Daily Brands',src:'./src/assets/Cards/Daily1.jpg'},
-    {id:'4',name:'Daily Brands',src:'./src/assets/Cards/Daily2.jpg'},
-    {id:'5',name:'DMC Real Estate',src:'./src/assets/Cards/DMC.png'},
-    {id:'6',name:'Hayal Leather Collection',src:'./src/assets/Cards/Hayal.jpg'},
-    {id:'7',name:'Ghion Real Estate',src:'./src/assets/Cards/Ghion.jpg'},
-    {id:'8',name:'Nayo Shop',src:'./src/assets/Cards/Nayo-2.jpg'},
-    {id:'9',name:'Nayo Shop',src:'./src/assets/Cards/Nayo3.jpg'},
-    {id:'10',name:'Nayo Shop',src:'./src/assets/Cards/Nayo8.jpg'},
-    {id:'11',name:'Nayo Shop',src:'./src/assets/Cards/Nayo11.jpg'},
+    {id:'2',name:'Daily Brands',src:'./src/assets/Cards/Daily1.jpg'},
+    {id:'3',name:'DMC Real Estate',src:'./src/assets/Cards/DMC.png'},
+    {id:'4',name:'Hayal Leather Collection',src:'./src/assets/Cards/Hayal.jpg'},
+    {id:'5',name:'Ghion Real Estate',src:'./src/assets/Cards/Ghion.jpg'},
+    {id:'6',name:'Nayo Shop',src:'./src/assets/Cards/Nayo-2.jpg'},
     
 ]

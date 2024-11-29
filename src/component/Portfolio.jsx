@@ -19,11 +19,20 @@ const Portfolio = () => {
                     link={items.link}/>
             ))}
 
-            {Graphics.map((itmes)=>(
-              <ImgCard  key={itmes.id}
-                        name={itmes.name}
-                        imgUrl={itmes.src}/>
-            ))}
+      </div>
+      <div className='w-full flex items-start'> 
+        <h1 className='text-white text-[2.4rem] font-bold mt-[6rem] ml-[1rem]
+         md:ml-[11rem] max-md:text-[1.6rem]  max-md:ml-[2.5rem]'>Some of my Graphics Design</h1>
+      </div>
+
+      <div className='w-[75%]   flex flex-wrap  items-center justify-center mt-[2rem]'>
+                
+                    {Graphics.map((itmes)=>(
+                      <ImgCard  key={itmes.id}
+                                name={itmes.name}
+                                imgUrl={itmes.src}/>
+                    ))}
+                
       </div>
     </div>
   )

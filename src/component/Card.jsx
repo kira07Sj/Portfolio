@@ -3,9 +3,9 @@ import React from 'react'
 const Card = ({name,imgUrl,link}) => {
   return (
     <div className='flex flex-col items-start 
-    justify-center  fourth_bg rounded-xl p-[15px] m-[1rem]'>
+    justify-center  fourth_bg rounded-xl p-[15px] m-[1rem] hover:scale-95'>
         <div className='bg-black/25 flex items-center justify-center
-         w-[290px] h-[290px] rounded-lg overflow-hidden hover:scale-95'>
+         w-[290px] h-[290px] rounded-lg overflow-hidden '>
             <img src={imgUrl} alt="" className='object-cover w-full h-full '/>
         </div>
 
@@ -33,9 +33,9 @@ const Card = ({name,imgUrl,link}) => {
 export const ImgCard = ({name,imgUrl,onClick}) => {
   return (
     <div className='flex flex-col items-start 
-    justify-center  fourth_bg rounded-xl p-[15px] m-[1rem]'>
+    justify-center  fourth_bg rounded-xl p-[15px] m-[1rem] hover:scale-95'>
         <div onClick={onClick} className='bg-black/25 flex items-center justify-center
-         w-[290px] h-[290px] rounded-lg overflow-hidden hover:scale-95'>
+         w-[290px] h-[290px] rounded-lg overflow-hidden '>
             <img src={imgUrl} alt="" className='object-cover w-full h-full '/>
         </div>
 
@@ -45,11 +45,7 @@ export const ImgCard = ({name,imgUrl,onClick}) => {
                 text-start my-4 '>{name}
                 </h1>
 
-                <div  className='flex items-center justify-center'>
-                    <p className='bg-purple-800/90 p-[5px] rounded-sm text-white mr-3'>Graphics Design</p>
-                    
-                </div>
-            </div>
+             </div>
 
             
             

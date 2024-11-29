@@ -3,7 +3,7 @@ import Hero from './component/Hero'
 import Navbar from './component/Navbar.jsx'
 import About from './component/About'
 import Portfolio from './component/Portfolio'
-
+import Contact from './component/Contact.jsx'
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
       <Hero/>
       <About/>
       <Portfolio/>
+      <Contact/>
     </div>
   )
 }
