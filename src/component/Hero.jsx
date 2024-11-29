@@ -46,11 +46,18 @@ const Hero = () => {
                     <i class='bx bxl-telegram i rounded-full '></i>
                   </a>
               </div>
-
-              <div className='second_bg ml-[5rem]'>
-                  <a className=' p-[20px] px-[25px]  rounded-md
+              <div className='flex max-sm:flex-col items-center justify-center'>
+              <div className='second_bg ml-[5rem]  max-sm:mb-3 rounded-md'>
+                  <a className=' p-[20px] px-[25px]  
                   flex items-center justify-center shadow-2xl text-white text-[20px]
-                    font-bold  a ' href={FileUrl} target='__blank'>Download CV</a>
+                    font-bold  a ' href={FileUrl} target='__blank'>Download CV</a>                    
+              </div>
+
+              <div className='bg-white ml-[5rem] rounded-md'>
+                  <a className=' p-[20px] px-[25px]  
+                  flex items-center justify-center shadow-2xl text_primary text-[20px]
+                    font-bold  a ' href="#Portfolio">View Projects</a>                    
+              </div>
               </div>
           </div>
           <div className='w-full h-full flex items-center justify-center'>

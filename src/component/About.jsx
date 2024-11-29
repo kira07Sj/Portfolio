@@ -32,7 +32,7 @@ const About = () => {
               </div>
           </div>
 
-          <div className='w-[80%]  max-md:w-[90%] pb-[4rem] mt-[4rem] rounded-md border bentoBoxHover bg-purple-950/40 flex flex-col'>
+          <div className='w-[80%]  max-md:w-[90%] pb-[4rem] mt-[3rem] rounded-md border bentoBoxHover bg-purple-950/40 flex flex-col'>
               <h1 className='text-white text-[1.9rem] max-sm:text-[1.4rem] mb-3 font-bold ml-[2rem] mt-[2rem]'>Skills & Tools</h1>
               <p className='text-white/70 text-[1.2rem] mt-[1rem] ml-[2rem] w-[85%] max-sm:w-[75%] text-justify mb-5'>
               Over the past two years, I’ve honed my skills across a variety of tools and technologies that empower me
@@ -46,6 +46,7 @@ const About = () => {
                     </div>
                   ))}
               </div>
+              <div className='pb-[3rem]'/>
 
           </div>
           

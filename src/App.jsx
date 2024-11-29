@@ -4,6 +4,7 @@ import Navbar from './component/Navbar.jsx'
 import About from './component/About'
 import Portfolio from './component/Portfolio'
 import Contact from './component/Contact.jsx'
+import Footer from './component/footer.jsx'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
