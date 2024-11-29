@@ -44,3 +44,23 @@ export const Skills = [
     {id:'11', src:'./src/assets/figma.svg'},
     {id:'12', src:'./src/assets/unity.svg'},
 ]
+
+export const Projects = [
+    {id:'1',name:'Brainwave', src:'./src/assets/Cards/Brainwave.png', link:'https://brainwave-cgzz.onrender.com/'},
+    {id:'2',name:'Hoobank', src:'./src/assets/Cards/Hoobank.png', link:'https://hoobank-7zz8.onrender.com'},
+    {id:'3',name:'Travel app', src:'./src/assets/Cards/Travel_app.png', link:'https://travel-app-2hy7.onrender.com'},
+]
+export const Graphics = [
+    {id:'1',name:'Amibara Real Estate',src:'./src/assets/Cards/Amibara1.jpg'},
+    {id:'2',name:'Amibara Real Estate',src:'./src/assets/Cards/Amibara2.png'},
+    {id:'3',name:'Daily Brands',src:'./src/assets/Cards/Daily1.jpg'},
+    {id:'4',name:'Daily Brands',src:'./src/assets/Cards/Daily2.jpg'},
+    {id:'5',name:'DMC Real Estate',src:'./src/assets/Cards/DMC.png'},
+    {id:'6',name:'Hayal Leather Collection',src:'./src/assets/Cards/Hayal.jpg'},
+    {id:'7',name:'Ghion Real Estate',src:'./src/assets/Cards/Ghion.jpg'},
+    {id:'8',name:'Nayo Shop',src:'./src/assets/Cards/Nayo-2.jpg'},
+    {id:'9',name:'Nayo Shop',src:'./src/assets/Cards/Nayo3.jpg'},
+    {id:'10',name:'Nayo Shop',src:'./src/assets/Cards/Nayo8.jpg'},
+    {id:'11',name:'Nayo Shop',src:'./src/assets/Cards/Nayo11.jpg'},
+    
+]
