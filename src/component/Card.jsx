@@ -5,7 +5,7 @@ const Card = ({name,imgUrl,link}) => {
     <div className='flex flex-col items-start 
     justify-center  fourth_bg rounded-xl p-[15px] m-[1rem] hover:scale-95'>
         <div className='bg-black/25 flex items-center justify-center
-         w-[290px] h-[290px] rounded-lg overflow-hidden '>
+         w-[290px] h-[270px] max-sm:w-[260px] max-sm:h-[240px] rounded-lg overflow-hidden '>
             <img src={imgUrl} alt="" className='object-cover w-full h-full '/>
         </div>
 
@@ -35,7 +35,7 @@ export const ImgCard = ({name,imgUrl,onClick}) => {
     <div className='flex flex-col items-start 
     justify-center  fourth_bg rounded-xl p-[15px] m-[1rem] hover:scale-95'>
         <div onClick={onClick} className='bg-black/25 flex items-center justify-center
-         w-[290px] h-[290px] rounded-lg overflow-hidden '>
+         w-[290px] h-[270px] max-sm:w-[260px] max-sm:h-[240px] rounded-lg overflow-hidden '>
             <img src={imgUrl} alt="" className='object-cover w-full h-full '/>
         </div>
 

@@ -16,7 +16,7 @@ const About = () => {
                flex-col items-start bentoBoxHover'>
 
                 <h1 className='text-white text-[1.9rem] max-sm:text-[1.4rem] font-bold ml-[2rem] mt-[2rem]'>Hi I'm Kirubel Dagne,</h1>
-                <p className='text-white/70 text-[1.2rem] mt-[1rem] ml-[2rem] w-[85%] max-sm:w-[75%] text-justify mb-5'>a passionate developer with a love for building user-friendly applications and 
+                <p className='text-white/70 text-[1.2rem] mt-[1rem] ml-[2rem] w-[85%] max-sm:w-[75%] max-sm:text-[.9rem] text-justify mb-5'>a passionate developer with a love for building user-friendly applications and 
                   immersive games. My goal is to bridge the gap between creativity and technology. 
                   In my free time, I enjoy exploring new gaming trends and learning about UI/UX design.</p>
                 <a href="#" className='w-[120px] h-[50px] bg-white rounded-sm flex items-center justify-center
@@ -26,7 +26,7 @@ const About = () => {
               <div className='w-full  bg-purple-950/40 rounded-lg m-5 border pb-[2rem] bentoBoxHover'>
                   <h1 className='text-white text-[1.9rem] font-bold ml-[2rem] mt-[2rem] max-sm:text-[1.4rem]'>Achievements</h1>
                   {achievements.map((items)=>(
-                    <li className='text-white/70 ml-[2rem] text-[1.1rem] mt-5 max-sm:w-[85%]'
+                    <li className='text-white/70 ml-[2rem] text-[1.1rem] max-sm:text-[.9rem] mt-5 max-sm:w-[84%]'
                     key={items.id}>{items.para}</li>
                   ))}
               </div>
@@ -34,7 +34,7 @@ const About = () => {
 
           <div className='w-[80%]  max-md:w-[90%] pb-[4rem] mt-[3rem] rounded-md border bentoBoxHover bg-purple-950/40 flex flex-col'>
               <h1 className='text-white text-[1.9rem] max-sm:text-[1.4rem] mb-3 font-bold ml-[2rem] mt-[2rem]'>Skills & Tools</h1>
-              <p className='text-white/70 text-[1.2rem] mt-[1rem] ml-[2rem] w-[85%] max-sm:w-[75%] text-justify mb-5'>
+              <p className='text-white/70 text-[1.2rem] max-sm:text-[.9rem] mt-[1rem] ml-[2rem] w-[85%] max-sm:w-[75%] text-justify mb-5'>
               Over the past two years, I’ve honed my skills across a variety of tools and technologies that empower me
                to create intuitive and engaging experiences. From crafting sleek user interfaces 
                to developing immersive game worlds, These are the technologies and tools I use to bring my ideas to life.
@@ -42,7 +42,7 @@ const About = () => {
               <div className='flex flex-wrap mt-5 w-full items-center justify-center'>
                   {Skills.map((items)=>(
                     <div key={items}>
-                      <img src={items.src} alt="icons" className='m-5 hover:rotate-12' width={60}  />
+                      <img src={items.src} alt="icons" className='m-5 hover:rotate-12 max-sm:w-[40px]' width={60}  />
                     </div>
                   ))}
               </div>

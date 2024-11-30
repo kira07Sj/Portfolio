@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     <div
-      className="w-[500px] max-sm:w-[320px] max-sm:h-[70px] h-[80px] z-50 flex items-center justify-center fixed
+      className="w-[500px] max-sm:w-[280px]  max-sm:h-[60px] h-[80px] z-50 flex items-center justify-center fixed
       second_bg shadow-xl mt-[1.5rem] rounded-lg"
     >
       {navLinks.map((item) => (
@@ -45,7 +45,7 @@ function Navbar() {
           href={item.url}
           onClick={() => setActiveLink(item.title)} // Update active link state with the title
           className={`flex items-center justify-center w-[100px] h-[75%] rounded-lg 
-            text-[20px] font-bold mx-1 a max-sm:text-[16px]
+            text-[20px] font-bold mx-1 a max-sm:text-[14px]
             ${
               activeLink === item.title
                 ? 'bg-white text-primary' // Apply active styles

@@ -9,28 +9,28 @@ const Hero = () => {
     <div id='Home' data-nav-id className='w-full h-full  primary_bg   flex  justify-center'>
 
         <div className='w-[80%] md:h-[500px] flex flex-col justify-center
-        items-center z-10 sm:mt-[10rem] mt-[4rem] lg:flex-row mb-[12.5rem] max-md:mb-[5rem]'>
+        items-center z-10 sm:mt-[10rem] mt-[4rem] max-sm:-ml-[6rem] lg:flex-row mb-[12.5rem] max-md:mb-[5rem]'>
           <div className='w-full h-full flex flex-col items-start '>
               <h1 className='text-white font-semibold ml-[3rem] mt-[3rem]
-               text-[2rem] max-md:text-[1.5rem]'>Hello, I'm</h1>
+               text-[2rem] max-md:text-[1.5rem] max-sm:text-[1.3rem]'>Hello, I'm</h1>
                <h1 className='text-white font-semibold
-                text-[4rem] ml-[3rem] max-md:text-[2rem]'>Kirubel Dagne</h1>
+                text-[4rem] ml-[3rem] max-md:text-[2rem] max-sm:text-[1.7rem]'>Kirubel Dagne</h1>
 
-              <h1 className='text_primary bg-white p-[15px] font-bold text-[3rem] ml-[3rem] 
-              rounded max-md:text-[1.5rem]'>
+              <h1 className='text_primary bg-white p-[15px] max-sm:text-[1.2rem] font-bold text-[3rem] ml-[3rem] 
+              rounded max-md:text-[1.5rem] '>
                 <ReactTypingEffect
-                    text={['Frontend Developer', 'Graphics Designer', 'UI/UX Designer']}
+                    text={['Frontend Developer', 'Graphics Designer', 'UI/UX Enthusiast']}
                     speed={100}
                     eraseSpeed={50}
                     typingDelay={500}
                   /></h1>
 
-              <p className='text-white text-[20px] ml-[3rem] mt-[1rem] w-[75%]'>I'm a highly motivated Web Developer, 
+              <p className='text-white text-[20px] max-sm:text-[17px] ml-[3rem] mt-[1rem] w-[75%]'>I'm a highly motivated Web Developer, 
                 eager to learn and develop my skills through Frontend web
                   development and Graphics design.
               </p>
 
-              <div className='flex justify-center items-center ml-[5rem] my-[2rem] gap-x-3'>
+              <div className='flex justify-center items-center ml-[5rem] my-[2rem] gap-x-3 max-sm:ml-[4rem]'>
                   <a href="https://github.com/kira07Sj" target='blank' className='flex items-center
                    justify-center'>
                     <i class='bx bxl-github i rounded-full '></i>
@@ -47,21 +47,21 @@ const Hero = () => {
                   </a>
               </div>
               <div className='flex max-sm:flex-col items-center justify-center'>
-              <div className='second_bg ml-[5rem]  max-sm:mb-3 rounded-md'>
+              <div className='second_bg ml-[5rem]  max-sm:mb-3 rounded-md max-sm:ml-[5.5rem]'>
                   <a className=' p-[20px] px-[25px]  
-                  flex items-center justify-center shadow-2xl text-white text-[20px]
+                  flex items-center justify-center shadow-2xl text-white text-[20px] max-sm:text-[16px]
                     font-bold  a ' href={FileUrl} target='__blank'>Download CV</a>                    
               </div>
 
-              <div className='bg-white ml-[5rem] rounded-md'>
+              <div className='bg-white ml-[5rem] rounded-md max-sm:ml-[5.5rem]'>
                   <a className=' p-[20px] px-[25px]  
-                  flex items-center justify-center shadow-2xl text_primary text-[20px]
+                  flex items-center justify-center shadow-2xl text_primary text-[20px] max-sm:text-[16px]
                     font-bold  a ' href="#Portfolio">View Projects</a>                    
               </div>
               </div>
           </div>
           <div className='w-full h-full flex items-center justify-center'>
-          <div className='w-[300px] h-[300px] md:w-[450px] md:h-[450px] rounded-full bg-slate-600
+          <div className='w-[300px] h-[300px] max-sm:w-[240px] max-sm:h-[240px] max-sm:ml-[2.5rem] md:w-[450px] md:h-[450px] rounded-full bg-slate-600
            flex items-center justify-center overflow-hidden  max-md:mt-5 pulseAnimation'>
             <img src={kira_photo} alt="" />
           </div>
