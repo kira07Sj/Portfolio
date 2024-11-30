@@ -58,6 +58,6 @@ export const Skills = [
     { id: '3', name: 'DMC Real Estate', src: '/assets/Cards/DMC.png' },
     { id: '4', name: 'Hayal Leather Collection', src: '/assets/Cards/Hayal.jpg' },
     { id: '5', name: 'Ghion Real Estate', src: '/assets/Cards/Ghion.jpg' },
-    { id: '6', name: 'Nayo Shop', src: '/assets/Cards/Nayo-2.jpg' },
+    { id: '6', name: 'Nayo Shop', src: '/assets/Cards/Nayo-2.png' },
   ];
   
