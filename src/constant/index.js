@@ -57,7 +57,7 @@ export const Skills = [
       id: '2',
       name: 'Hoobank',
       src: '/assets/Cards/Hoobank.png',
-      link: 'https://hoobank-7zz8.onrender.com',
+      link: 'https://personal-portfolio-ayfx.onrender.com',
     },
     {
       id: '3',

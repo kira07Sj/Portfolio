@@ -21,7 +21,7 @@ const Card = ({name,imgUrl,link}) => {
                 </div>
             </div>
 
-            <a href={link} className=' bg-white rounded-md mr-3'>
+            <a href={link} target='__blank' className=' bg-white rounded-md mr-3'>
                 <i class='bx bx-link-external text-[2rem] p-2 '></i>
             </a>
             
