@@ -1,9 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { navLinks } from '../constant';
 
 function Navbar() {
   // State to track the active link
   const [activeLink, setActiveLink] = useState('Home'); // Default to "Home"
+
+  useEffect(() => {
+    // Observer callback
+    const handleIntersection = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const sectionId = entry.target.id;
+          const link = navLinks.find((item) => item.url === `#${sectionId}`);
+          if (link) {
+            setActiveLink(link.title);
+          }
+        }
+      });
+    };
+
+    // Create observer
+    const observer = new IntersectionObserver(handleIntersection, {
+      root: null, // Use the viewport as the root
+      rootMargin: '0px', // No margin
+      threshold: 0.5, // Trigger when 50% of the section is visible
+    });
+
+    // Observe sections
+    const sections = document.querySelectorAll('[data-nav-id]');
+    sections.forEach((section) => observer.observe(section));
+
+    // Cleanup observer on unmount
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <div

@@ -1,25 +1,10 @@
 export const navLinks = [
-    {
-        id: '1',
-        title:'Home',
-        url: '#Home'
-    },
-    {
-        id: '2',
-        title:'About',
-        url: '#About'
-    },
-    {
-        id: '3',
-        title:'Portfolio',
-        url: '#Portfolio'
-    },
-    {
-        id: '4',
-        title:'Contact',
-        url: '#Contact'
-    },
-]
+  { id: 'Home', title: 'Home', url: '#Home' },
+  { id: 'About', title: 'About', url: '#About' },
+  { id: 'Portfolio', title: 'Portfolio', url: '#Portfolio' },
+  { id: 'Contact', title: 'Contact', url: '#Contact' },
+];
+
 
 export const achievements = [
 

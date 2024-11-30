@@ -6,7 +6,7 @@ import kira_photo from '../assets/kira_photo.png'
 
 const Hero = () => {
   return (
-    <div id='Home' className='w-full h-full  primary_bg   flex  justify-center'>
+    <div id='Home' data-nav-id className='w-full h-full  primary_bg   flex  justify-center'>
 
         <div className='w-[80%] md:h-[500px] flex flex-col justify-center
         items-center z-10 sm:mt-[10rem] mt-[4rem] lg:flex-row mb-[12.5rem] max-md:mb-[5rem]'>
