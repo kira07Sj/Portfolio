@@ -57,7 +57,7 @@ export const Skills = [
       id: '2',
       name: 'Hoobank',
       src: '/assets/Cards/Hoobank.png',
-      link: 'https://personal-portfolio-ayfx.onrender.com',
+      link: 'https://hoobank-chi-eosin.vercel.app/',
     },
     {
       id: '3',
