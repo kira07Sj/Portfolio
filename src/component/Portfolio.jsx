@@ -11,7 +11,7 @@ const Portfolio = () => {
          md:ml-[11rem] max-md:text-[1.6rem] max-sm:text-[1.4rem] max-md:ml-[2.5rem]'>My Portfolio highlights</h1>
       </div>
 
-      <div className='w-[85%] flex flex-wrap items-center  justify-center mt-[2rem]'>
+      <div className='w-[90%] flex flex-wrap items-center  justify-center mt-[2rem]'>
             {Projects.map((items)=>(
               <Card key={items.id}
                     name={items.name}

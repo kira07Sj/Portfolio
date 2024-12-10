@@ -50,6 +50,12 @@ export const Skills = [
       src: '/assets/Cards/Travel_app.png',
       link: 'https://travel-app-2hy7.onrender.com',
     },
+    {
+      id:'4',
+      name:'Teke Habesha',
+      src: '/assets/Cards/Teke.png',
+      link: 'https://teke-habesha.onrender.com',
+    }
   ];
   
   export const Graphics = [
