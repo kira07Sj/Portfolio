@@ -36,7 +36,7 @@ const Hero = () => {
                     <i class='bx bxl-github i rounded-full '></i>
                   </a>
 
-                  <a href="http://www.linkedin.com/in/kirubel-dagne07" target='blank' className='flex items-center
+                  <a href="http://www.linkedin.com/in/kirubel-dagne-27sj" target='blank' className='flex items-center
                    justify-center'>
                     <i class='bx bxl-linkedin i rounded-full '></i>
                   </a>

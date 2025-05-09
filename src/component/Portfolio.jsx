@@ -17,6 +17,7 @@ const Portfolio = () => {
                     name={items.name}
                     imgUrl={items.src}
                     link={items.link}
+                    frameworks={items.framworks}
                     />
                    
             ))}
